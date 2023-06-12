@@ -136,7 +136,7 @@ $instagram = [
 
 <div class="testimonial_container">
     <div>
-        <h1>Testimonial</h1>    
+        <h1>Testimonial</h1>
         <p>See what our guests said about us </p>
     </div>
     <div class="person_img_div">
@@ -144,21 +144,8 @@ $instagram = [
             <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fHww&w=1000&q=80" alt="">
             <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore possimus provident iure aut recusandae repellendus repudiandae cum, ratione voluptate quidem. Soluta ea nisi asperiores totam. Est explicabo quis veritatis asperiores."</p>
         </div>
-        
-        <div class="testimonial_five_star" >
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1 h-1">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-                </svg>
-            </div>
 
-
-            <div >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1 h-1">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-                </svg>
-            </div>
-
+        <div class="testimonial_five_star">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1 h-1">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
@@ -178,14 +165,27 @@ $instagram = [
                 </svg>
             </div>
 
-                
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1 h-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                </svg>
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-1 h-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                </svg>
+            </div>
+
+
         </div>
-        <p style="color:orange; font-weight:bolder; font-size:large; margin-top:5px;">Shibhashish Panda</p>
+        <p class="pp">Shibhashish Panda</p>
     </div>
 
 </div>
 <div class="insta">
-    <div style="height:80px">
+    <div style="height:fit-content">
         <h1>On Instagram</h1>
     </div>
 
@@ -197,7 +197,7 @@ $instagram = [
                 <div class="head">
                     <div class="user">
                         <div>
-                            <img src="<?php echo $insta["user"] ?>" alt="">
+                            <img src="<?php echo $insta["user"] ?>" alt="user.png">
                         </div>
                         <div>
                             <h4><?php echo $insta["page_title"] ?></h4>
@@ -209,7 +209,7 @@ $instagram = [
                     </div>
                 </div>
                 <div class="image">
-                    <img src="<?php echo $insta["post_url"] ?>" alt="">
+                    <img src="<?php echo $insta["post_url"] ?>" alt="post.png">
                 </div>
                 <div class="comment">
                     <div class="first">
@@ -264,7 +264,7 @@ $instagram = [
         <h1>Looking for Something else in Spiti Trip ?</h1>
     </div>
     <div class="confused_btn">
-        <button style="width: 100%; height:100%; background-color:black;color:white; border:none;">Contact Us Now</button>
+        <button>Contact Us Now</button>
     </div>
 </div>
 

@@ -1,9 +1,7 @@
 * {
-    margin: 0% !important;
+    margin: 0;
 }
-div{
-    border: 1px solid red;
-}
+
 
 nav {
     position: absolute;
@@ -18,12 +16,13 @@ nav .main_nav {
     width: 100%;
 }
 
-.clicked{
+.clicked {
     display: flex;
     flex-direction: column;
     padding: 100px 0;
     background-color: black;
 }
+
 .hamburger {
     display: none;
 }
@@ -42,6 +41,7 @@ button {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.7)), url("https://www.spitiholidayadventure.com/storage/5bc7123c9f862.jpg");
     height: 500px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -171,7 +171,7 @@ button {
     border-radius: 20px;
     background-color: black;
     color: white;
-    height: 400px;
+    height: fit-content;
 }
 
 .image_div {
@@ -298,6 +298,13 @@ button {
 .destination_container div img {
     width: 100%;
     border-radius: 10px;
+}
+
+.pp {
+    color: orange;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 5px;
 }
 
 .query {
@@ -646,7 +653,7 @@ form button {
 }
 
 .confused_btn {
-    height: 50px;
+    height: 100%;
 }
 
 .confused_btn button {
@@ -670,11 +677,11 @@ form button {
         margin: auto;
         margin-bottom: 40px
     }
-    
+
     .package_header h1 {
         font-size: 30px;
     }
-    
+
     .packages {
         width: 80%;
         margin: auto;
@@ -683,15 +690,16 @@ form button {
         gap: 30px;
     }
 
-    .video_container{
+    .video_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .video_container div {
         width: 100%;
     }
 
-    .destination_container{
+    .destination_container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -710,6 +718,84 @@ form button {
 }
 
 @media screen and (max-width:500px) {
+  
+    .award_banner>div h1 {
+        font-size: 18px;
+    }
+
+    .award_banner>div p {
+        font-size: 12px;
+    }
+
+    .testimonial_container h1 {
+        font-size: 18px;
+    }
+
+    .testimonial_container p {
+        font-size: 12px;
+    }
+
+    .person_img_div>.person p {
+        font-size: 10px;
+    }
+
+    .person_img_div .pp {
+        font-size: 12px;
+    }
+
+    .package_header h1 {
+        font-size: 18px;
+    }
+
+    .confused_text h1 {
+        font-size: 15px;
+    }
+
+    .video_parent_container h1 {
+        font-size: 15px;
+    }
+
+    .destination_parent_container h1 {
+        font-size: 15px;
+    }
+
+    .query {
+        padding: 30px;
+    }
+
+    
+    .query>div p {
+        font-size: 10px;
+    }
+
+    .query>div h1 {
+        font-size: 14px;
+    }
+
+    .query>div {
+        padding: 0;
+    }
+
+    .select_div {
+        box-shadow: rgba(189, 10, 10, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .select_div details summary {
+        border: none;
+        height: 40px;
+        font-size: 15px;
+        font-weight: lighter;
+        cursor: pointer;
+    }
+
+    .select_div p {
+        font-size: 12px;
+    }
 
     nav .main_nav {
         display: none;
@@ -738,24 +824,32 @@ form button {
     .banner {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
         text-align: center;
-        padding-top: 100px;
-        height: 600px;
+        padding-top: 70px;
+        height: fit-content;
     }
 
     .banner div {
+        width: 90%;
         margin: auto;
     }
 
     .banner h1 {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 400;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .banner p {
-        font-size: 15rpx;
+        font-size: 12px;
     }
+
+    .form {
+        width: 100%;
+        padding: 20px 4px;
+    }
+    
 
     .person_img_div .person p {
         width: 90%;
@@ -796,6 +890,39 @@ form button {
 
     .award_img_div img {
         width: 100%;
+    }
+
+    .testimonial_container {
+        padding: 0;
+        height: fit-content;
+    }
+
+    .testimonial_container .person img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .testimonial_container>div {
+        width: 100%;
+    }
+
+    /* .testimonial_five_star{
+        width: 50%;
+    }
+    .testimonial_five_star div{
+        width: 20%;
+    } */
+    .insta > div h1{
+        font-size: 18px;
+    }
+
+    .insta_pages {
+        padding: 0;
+    }
+
+    .page {
+        max-width: 100%;
+        width: fit-content;
     }
 
     .custom_package {
@@ -842,17 +969,13 @@ form button {
         gap: 20px;
     }
 
-    /* div{
-        border: 1px solid red;
-    } */
-    .confused {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-    }
+   .confused{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
 
     .confused_text h1 {
-        font-size: larger;
+        font-size: 15px;
     }
 
     .confused_btn {
@@ -864,6 +987,7 @@ form button {
         height: 100%;
         background-color: white;
         border: none;
+        font-size: 12px;
     }
 
     .second_footer {
@@ -875,6 +999,10 @@ form button {
         gap: 10px;
         align-items: center;
         text-align: center;
+    }
+
+    .second_foot_img img {
+        max-width: 100%;
     }
 
     .video_container {
@@ -902,10 +1030,99 @@ form button {
         margin: auto;
     }
 
+    .destination_parent_container {
+        max-width: 100%;
+    }
+
+    .destination_parent_container h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .destination_parent_container span {
+        width: 100%;
+    }
+
     .last_plan {
         width: 80%;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+}
+
+
+
+@media screen and (max-width:300px) {
+    
+    .insta_pages {
+        width: 100%;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .first_footer {
+        width: 100%;
+    }
+
+    .first_div_footer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .first_div_footer .svg {
+        width: 30%;
+    }
+
+    .second_div_footer {
+        padding-left: 0;
+
+    }
+
+    .second_div_footer form {
+        padding: 0;
+    }
+    .second_div_footer form input{
+        padding: 5px;
+    }
+    .second_footer {
+        padding: 0;
+        width: 100%;
+    }
+
+    .second_footer .second_foot_img {
+        width: fit-content;
+    }
+
+    .second_footer div {
+        width: 100%;
+    }
+
+    .second_footer .second_foot_img img {
+        width: 100%;
+    }
+
+    .select_div {
+        box-shadow: rgba(189, 10, 10, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .select_div details summary {
+        border: none;
+        height: 40px;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .select_div p {
+        font-size: 10px;
+    }
+
 }
