@@ -22,7 +22,7 @@ $deals = [
         <h1>Let us show you Spiti Valley</h1>
         <p>Customisable Road Trips and Treks from ₹11,750</p>
     </div>
-    <div>
+    <div class="banner_form">
         <form action="submit.php" class="form" method="post">
             <div>
                 <input type="text" placeholder="Name" name="name">

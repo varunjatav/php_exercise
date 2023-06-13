@@ -320,7 +320,7 @@ button {
 }
 
 .select_div {
-    box-shadow: rgba(189, 10, 10, 0.24) 0px 3px 8px;
+    box-shadow: rgba(5, 5, 5, 0.24) 0px 3px 8px;
     border-radius: 15px;
     padding: 10px 20px;
     display: flex;
@@ -667,8 +667,38 @@ form button {
     background-color: white;
     border: none;
 }
+@media screen and (min-width:800px) and (max-width:1000px){
+    .second_footer {
+        width: 100%;
+    }
+}
 
 @media screen and (min-width:500px) and (max-width:800px) {
+    nav .main_nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: grid;
+        width: 50px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: white;
+    }
+    
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        text-align: center;
+        padding: 20px 0;
+        height: fit-content;
+    }
+    .banner_form form{
+        margin: auto;
+    }
+    
     .banner h1 {
         font-size: 40px;
     }
@@ -719,7 +749,10 @@ form button {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-
+    .last_plan {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .first_footer {
         display: grid;
@@ -753,7 +786,6 @@ form button {
 
     .second_footer {
         width: 100%;
-        /* margin: auto; */
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding-top: 20px;
@@ -765,7 +797,12 @@ form button {
     .second_foot_img img {
         max-width: 100%;
     }
-   
+    .confused_text h1 {
+        font-size: 15px;
+    }
+    .custom_package h1 {
+        font-size: 20px;
+    }
     
 
 }
@@ -863,10 +900,6 @@ form button {
         background-color: white;
     }
 
-    /* .hamburger img {
-        width: 100px;
-    } */
-
     .deals {
         display: none;
     }
@@ -933,7 +966,6 @@ form button {
     }
 
     .award_banner>div {
-        /* margin: auto; */
         width: 100%;
     }
 
@@ -960,12 +992,6 @@ form button {
         width: 100%;
     }
 
-    /* .testimonial_five_star{
-        width: 50%;
-    }
-    .testimonial_five_star div{
-        width: 20%;
-    } */
     .insta > div h1{
         font-size: 18px;
     }
