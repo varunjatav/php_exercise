@@ -1,8 +1,6 @@
-
-
 <nav>
     <button class="hamburger">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
@@ -11,33 +9,34 @@
         <button class="nav_btn">Road Trip</button>
         <button class="nav_btn">Tracks</button>
         <button class="nav_btn">Fixed Departure</button>
-    </div> -->
-  //  <?php
-// function show($hambuger, $clicked, $show_div)
-// {
-//     if (isset($_POST[$hambuger])) {
-//         echo "<script>";
-//         echo "document.getElementById('$show_div').classList.add('$clicked')";
-//         echo "</script>";
-//     }
-// }
+    </div>
+    // <?php
+    // function show($hambuger, $clicked, $show_div)
+    // {
+    //     if (isset($_POST[$hambuger])) {
+    //         echo "<script>";
+    //         echo "document.getElementById('$show_div').classList.add('$clicked')";
+    //         echo "</script>";
+    //     }
+    // }
 
-// show($hambuger, $clicked, $show_div)
-// ?>
+    // show($hambuger, $clicked, $show_div)
+    ?> -->
 
 
-// <?php
-// function hide($nav_btn, $clicked, $show_div)
-// {
-//     if (isset($_POST[$nav_btn])) {
-//         echo "<script>";
-//         echo "document.getElementById('$show_div').classList.remove('$clicked')";
-//         echo "</script>";
-//     }
-// }
+    // <?php
+        // function hide($nav_btn, $clicked, $show_div)
+        // {
+        //     if (isset($_POST[$nav_btn])) {
+        //         echo "<script>";
+        //         echo "document.getElementById('$show_div').classList.remove('$clicked')";
+        //         echo "</script>";
+        //     }
+        // }
 
-// hide($nav_btn, $clicked, $show_div)
-// ?>
+        // hide($nav_btn, $clicked, $show_div)
+        // 
+        ?>
     <div class="main_nav">
         <button class="nav_btn">Road Trip</button>
         <button class="nav_btn">Tracks</button>

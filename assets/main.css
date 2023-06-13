@@ -1,6 +1,10 @@
 * {
     margin: 0;
 }
+html, body{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
 
 
 nav {
@@ -311,9 +315,7 @@ button {
     padding: 30px;
 }
 
-/* .query>div p {
-    font-size: small;
-} */
+
 
 .query>div {
     padding: 10px 0;
@@ -437,9 +439,7 @@ button {
     padding-top: 20px;
 }
 
-/* .insta>div{
-    height: 80px;
-} */
+
 .insta h1 {
     color: #002D62;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -474,9 +474,7 @@ button {
     gap: 5px;
 }
 
-/* .head>div{
-    width: 60%;
-} */
+
 .head div img {
     border-radius: 100%;
     width: 70px;
@@ -672,8 +670,7 @@ form button {
         width: 100%;
     }
 }
-
-@media screen and (min-width:500px) and (max-width:800px) {
+@media screen and (max-width:800px) {
     nav .main_nav {
         display: none;
     }
@@ -684,8 +681,14 @@ form button {
         position: absolute;
         top: 10px;
         right: 10px;
-        background-color: white;
+        background-color: transparent;
+        border: 1px solid #fbfbfb;
     }
+
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+  
+
     
     .banner {
         display: grid;
@@ -724,6 +727,10 @@ form button {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
+
+   
+    
+    
 
     .video_container {
         display: grid;
@@ -842,7 +849,7 @@ form button {
     }
 
     .video_parent_container h1 {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 
     .destination_parent_container h1 {
@@ -850,10 +857,8 @@ form button {
     }
 
     .query {
-        padding: 30px;
+        padding: 20px;
     }
-
-    
     .query>div p {
         font-size: 10px;
     }
@@ -862,18 +867,6 @@ form button {
         font-size: 14px;
     }
 
-    .query>div {
-        padding: 0;
-    }
-
-    .select_div {
-        box-shadow: rgba(189, 10, 10, 0.24) 0px 3px 8px;
-        border-radius: 15px;
-        padding: 10px 20px;
-        display: flex;
-        flex-direction: column;
-        cursor: pointer;
-    }
 
     .select_div details summary {
         border: none;
@@ -891,14 +884,7 @@ form button {
         display: none;
     }
 
-    .hamburger {
-        display: grid;
-        width: 50px;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background-color: white;
-    }
+
 
     .deals {
         display: none;
@@ -979,7 +965,7 @@ form button {
     }
 
     .testimonial_container {
-        padding: 0;
+        padding: 1rem;
         height: fit-content;
     }
 
@@ -1015,9 +1001,7 @@ form button {
         font-size: 20px;
     }
 
-    .query {
-        padding: 0;
-    }
+ 
 
     .first_footer {
         display: grid;
@@ -1072,7 +1056,6 @@ form button {
 
     .second_footer {
         width: 100%;
-        /* margin: auto; */
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding-top: 20px;
@@ -1156,6 +1139,9 @@ form button {
 
     .first_div_footer .svg {
         width: 100%;
+    }
+    .video_parent_container h1{
+        font-size: 1rem;
     }
 
     .destination_parent_container h1 {
