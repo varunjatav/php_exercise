@@ -686,10 +686,7 @@ form button {
     }
 
 }
-@media screen and (min-width:500px) and (max-width:800px) {
-  
-
-    
+@media screen and (min-width:500px) and (max-width:800px) {  
     .banner {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
