@@ -335,11 +335,11 @@ $packages = [
         <div>
             <img src="https://spiti-trip.com/images/spiti-trip-logo.webp" alt="" width="200px">
         </div>
-        <div class="d-flex flex-row align-items-center">
-            <div class="p-2">
-                <img src="https://cdn.onlinewebfonts.com/svg/img_320899.png" alt="" width="40px">
+        <div class="d-flex flex-row align-items-center gap-1">
+            <div >
+                <img src="https://spiti-trip.com/images/icon/icon-calling.webp" alt="" width="40px">
             </div>
-            <div class="p-2 text-danger fw-bold">
+            <div class="text-danger" style="font-size: 16px;font-weight: 800;font-family: Roboto,sans-serif;">
                 +91-8894949439
             </div>
         </div>
