@@ -17,24 +17,24 @@
             <div class="row" id="flex">
                 <div class="col-4 part-1">
                     <h4>GUARANTEE</h4>
-                    <div class="pt-3">
+                    <div class="padding-top-3">
                         <img src="https://spiti-trip.com/images/trust.webp" alt="" width="100%">
                     </div>
                 </div>
                 <div class="col-3">
                     <h4>APPROVED BY</h4>
-                    <div class="pt-5">
+                    <div class="padding-top-5">
                         <img class="approve_img" src="https://spiti-trip.com/images/logos.webp" alt="" width="100%" height="130px">
                     </div>
                 </div>
                 <div class="col-5">
                     <h4>WE ACCEPT ALL MAJOR CREDIT AND DEBIT CARDS</h4>
-                    <div class="p-3">
-                        <img src="https://spiti-trip.com/images/payment.webp" alt="">
+                    <div class="padding-3">
+                        <img src="https://spiti-trip.com/images/payment.webp" alt="" >
                     </div>
-                    <div class="pt-1 pl-3">
+                    <div class="padding-top-left">
                         <h4>CUSTOMER SUPPORT :</h4>
-                        <div class="d-flex align-items-center gap-2 pl-5" id="gap">
+                        <div class="d-flex align-items-center gap-2 padding-left-5" id="gap">
                             <div>
                                 <img src="https://spiti-trip.com/images/call-info.webp" alt="">
                             </div>
