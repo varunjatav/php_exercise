@@ -122,6 +122,7 @@ $packages = [
     <title>Bootstrap Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
@@ -158,6 +159,10 @@ $packages = [
             padding: 15px 0;
         }
 
+        .carousel-item {
+            text-align: center;
+        }
+
         /* #banner:hover {
             background-image: linear-gradient(rgb(1 1 0 / 34%), rgb(0 0 0 / 230%)), url("https://i.pinimg.com/originals/e6/55/97/e655976c532458e425eddc0de625575c.jpg");
         } */
@@ -168,12 +173,14 @@ $packages = [
             border-radius: 25px;
             overflow: hidden;
         }
-        .hover:hover{
+
+        .hover:hover {
             width: 50%;
         }
-        form input{
+
+        form input {
             padding: 20px;
-            font-size: 20px;    
+            font-size: 20px;
         }
 
         @keyframes example {
@@ -247,19 +254,7 @@ $packages = [
             margin-top: 20px;
         }
 
-        /* .confused {
-            margin-bottom: 20px;
-            padding: 10px;
-            background-color: #2e3042;
-            display: flex;
-            width: 80%;
-            margin: auto;
-            justify-content: space-around;
-            align-items: center;
-            text-align: center;
-            color: white;
-            border-radius: 5px;
-        } */
+
 
         .confused_text {
             height: 100%
@@ -283,10 +278,56 @@ $packages = [
             border: none;
         }
 
-        #grid-temp{
-                width: 95%;
+        #address_container {
+            padding: 10rem;
         }
 
+        #grid-temp {
+            width: 95%;
+        }
+
+        footer {
+            background: #2e3042;
+            padding: 50px;
+            color: #fff;
+        }
+
+        .link {
+            padding: 0;
+            margin: 0 0 80px;
+            list-style-type: none;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #fff;
+        }
+
+        @media screen and (max-width:1000px) {
+            .part-1 {
+                display: none;
+            }
+
+            #flex {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+
+            #flex div {
+                width: 100%;
+            }
+
+            .approve_img {
+                height: 100%;
+            }
+
+            #gap>div {
+                width: fit-content;
+            }
+
+
+        }
 
         @media screen and (max-width:800px) {
             #brand {
@@ -304,12 +345,14 @@ $packages = [
             .child-width>div {
                 width: 100%;
             }
-            #grid-temp{
+
+            #grid-temp {
                 display: grid;
-                grid-template-columns: repeat(1,1fr);
-                gap:100px;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 100px;
                 width: 80%;
             }
+
 
         }
 
@@ -322,28 +365,22 @@ $packages = [
             .container {
                 padding: 0;
             }
+
+            #address_container {
+                padding: 0;
+            }
         }
-       
+
+        @media screen and (max-width:500px) {
+            #address_container {
+                padding: 0;
+            }
+        }
     </style>
 </head>
 
 <body>
-    <nav style="background-color:#fff"  class="navbar p-4">
-        <div id="brand">
-            <a href="" class="navbar-brand nav-link text-danger fw-bold">Spiti Tour Packages</a>
-        </div>
-        <div>
-            <img src="https://spiti-trip.com/images/spiti-trip-logo.webp" alt="" width="200px">
-        </div>
-        <div class="d-flex flex-row align-items-center gap-1">
-            <div >
-                <img src="https://spiti-trip.com/images/icon/icon-calling.webp" alt="" width="40px">
-            </div>
-            <div class="text-danger" style="font-size: 16px;font-weight: 800;font-family: Roboto,sans-serif;">
-                +91-8894949439
-            </div>
-        </div>
-    </nav>
+    <?php require_once "_includes/boot_nav.php"; ?>
 
     <div id="banner">
         <div class="container">
@@ -650,6 +687,55 @@ $packages = [
         <p class="text-md" style="font-family: Cormorant Garamond,serif; color:grey">Top Spiti Destinations Packages</p>
     </div>
 
+
+
+    <div class="container pb-5">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/sanglavalley.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 1">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/pinvalley.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/nako.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 3">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/kibber.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 4">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/keymonastery.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 5">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/kaza.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 6">
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more carousel items as needed -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="p-5">
+
+    </div>
+
+
     <div style="background-color: #2e3042; padding:30px 10px;">
         <div class="row ">
             <div class="col-md-6" style="vertical-align: middle;margin: auto;max-width: 400px;text-align: center;">
@@ -753,90 +839,97 @@ $packages = [
     <div class="container m-auto text-center mt-5 pt-5 pb-5">
         <h1 style="font-size: 44px; font-family: Cormorant Garamond,serif; position: relative; color: #2e3042;">Contact<span class="text-danger"> Us</span> </h1>
     </div>
-    <div class="p-5" >
-    <div class="row p-5 m-auto " id="grid-temp">
-        <div class="col">
-            <div class="mb-5">
-                <h5 style="font-size:30px;line-height: 35px;font-weight: light;color:#000;max-width: 500px;margin-bottom: 30px;">Feel Free to Contact Us We will be Happy to Discuss With You</h5>
-            </div>
-            <div class="d-flex flex-column gap-2">
-                <div class="d-flex align-items-center gap-5">
-                    <div>
-                        <img src="https://spiti-trip.com/images/icon/icon-location.webp" alt="">
-                    </div>
-                    <div>
-                        <h2>Address</h2>
-                        <p style="font-size: 16px;font-weight: 700;font-family: Roboto,sans-serif;color: #000; width:70%">Anand Vas, Khalini, Shimla,
-                            Himachal Pradesh-171002
-                        </p>
-                    </div>
+    <div id="address_container">
+        <div class="row  m-auto " id="grid-temp">
+            <div class="col">
+                <div class="mb-5">
+                    <h5 style="font-size:30px;line-height: 35px;font-weight: light;color:#000;max-width: 500px;margin-bottom: 30px;">Feel Free to Contact Us We will be Happy to Discuss With You</h5>
                 </div>
-                <div class="d-flex align-items-center gap-5">
-                    <div>
-                        <img src="https://spiti-trip.com/images/icon/icon-calling.webp" alt="">
-                    </div>
-                    <div>
-                        <h2>Contact</h2>
-                        <p style="font-size: 16px;font-weight: 700;font-family: Roboto,sans-serif;color: #000;">+91 - 8894949439</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-        <div class="free-quotes ">
-                        <div class="get-free">
-                            <span class="blinking">Get Free Quotes!</span>
+                <div class="d-flex flex-column gap-2">
+                    <div class="d-flex align-items-center gap-5">
+                        <div>
+                            <img src="https://spiti-trip.com/images/icon/icon-location.webp" alt="">
                         </div>
+                        <div>
+                            <h2>Address</h2>
+                            <p style="font-size: 16px;font-weight: 700;font-family: Roboto,sans-serif;color: #000; width:70%">Anand Vas, Khalini, Shimla,
+                                Himachal Pradesh-171002
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-5">
+                        <div>
+                            <img src="https://spiti-trip.com/images/icon/icon-calling.webp" alt="">
+                        </div>
+                        <div>
+                            <h2>Contact</h2>
+                            <p style="font-size: 16px;font-weight: 700;font-family: Roboto,sans-serif;color: #000;">+91 - 8894949439</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="free-quotes ">
+                    <div class="get-free">
+                        <span class="blinking">Get Free Quotes!</span>
+                    </div>
 
-                        <form action="submit.php" class="p-4  m-auto " method="post" style="border-bottom: 25px; background-color:#f1f0ee">
-                            <div class="mb-2">
-                                <input type="text" class="form-control" placeholder="Name" name="name">
-                            </div>
-                            <div class="mb-2">
-                                <input type="text" class="form-control" placeholder="Email" name="email">
-                            </div>
-                            <div class="mb-2">
-                                <input type="number" class="form-control" placeholder="Mobile No." name="mobile">
-                            </div>
-                            <div class="mb-2">
-                                <select class="form-control" name="travel">
-                                    <option value="I am travelling from..">I am travelling from..</option>
-                                    <option value="Jhansi">Jhansi</option>
-                                    <option value="Jaipur">Jaipur</option>
-                                    <option value="Gurugram">Gurugram</option>
+                    <form action="submit.php" class="p-4  m-auto " method="post" style="border-bottom: 25px; background-color:#f1f0ee">
+                        <div class="mb-2">
+                            <input type="text" class="form-control" placeholder="Name" name="name">
+                        </div>
+                        <div class="mb-2">
+                            <input type="text" class="form-control" placeholder="Email" name="email">
+                        </div>
+                        <div class="mb-2">
+                            <input type="number" class="form-control" placeholder="Mobile No." name="mobile">
+                        </div>
+                        <div class="mb-2">
+                            <select class="form-control" name="travel">
+                                <option value="I am travelling from..">I am travelling from..</option>
+                                <option value="Jhansi">Jhansi</option>
+                                <option value="Jaipur">Jaipur</option>
+                                <option value="Gurugram">Gurugram</option>
+                            </select>
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control" type="date" name="date">
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <div class="w-50">
+                                <select class="form-control">
+                                    <option value="Select Adults">Select Adults</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="more than 2">more than 2</option>
                                 </select>
                             </div>
-                            <div class="mb-2">
-                                <input class="form-control" type="date" name="date">
+                            <div class="w-50">
+                                <select class="form-control">
+                                    <option value="Select Childs">Select Childs</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="more than 2">more than 2</option>
+                                </select>
                             </div>
-                            <div class="d-flex justify-content-between mb-2">
-                                <div class="w-50">
-                                    <select class="form-control">
-                                        <option value="Select Adults">Select Adults</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="more than 2">more than 2</option>
-                                    </select>
-                                </div>
-                                <div class="w-50">
-                                    <select class="form-control">
-                                        <option value="Select Childs">Select Childs</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="more than 2">more than 2</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="mb-2 d-flex flex-column align-items-center text-center gap-3 pt-2 ">
-                                <button type="button" class="btn btn-dark w-100" style="border-radius: 30px; font-family: Cormorant Garamond,serif; font-size: 23px;">Get Free Quote</button>
-                                <p class="text-gray" style="font-size: 0.7rem;">We assure the privacy of your contact data. Prices are indicative may vary based on trip customization</p>
-                            </div>
+                        </div>
+                        <div class="mb-2 d-flex flex-column align-items-center text-center gap-3 pt-2 ">
+                            <button type="button" class="btn btn-dark w-100" style="border-radius: 30px; font-family: Cormorant Garamond,serif; font-size: 23px;">Get Free Quote</button>
+                            <p class="text-gray" style="font-size: 0.7rem;">We assure the privacy of your contact data. Prices are indicative may vary based on trip customization</p>
+                        </div>
 
-                        </form>
-                    </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
+
+    <?php  require_once "_includes/boot_foot.php";   ?>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
