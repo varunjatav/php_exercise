@@ -1,3 +1,5 @@
+
+<section id="full_footer" class="pt-5">
 <footer>
         <div class="container">
             <div class="row part-1">
@@ -39,7 +41,7 @@
                                 <img src="https://spiti-trip.com/images/call-info.webp" alt="">
                             </div>
                             <div>
-                                <h4>+91- 8894949439</h4>
+                                <h4 class="m-auto">+91- 8894949439</h4>
                             </div>
                         </div>
                     </div>
@@ -47,7 +49,20 @@
             </div>
         </div>
     </footer>
+     <div id="copyright">
+           <div class="w-50 m-auto text-white">
+             <div class="row text-center">
+                <div class="col">
+                <p class="font">© Copyright 2023, spiti-trip.com, All Rights Reserved.</p>
+                </div>   
+             </div>
+             <div class="row text-center">
+                <div class="col">
+                <p  class="font">Privacy Policy  |  T & C</p>
+                </div>   
+             </div>
+           </div>
+     </div>
 
-
-
+    </section>
 

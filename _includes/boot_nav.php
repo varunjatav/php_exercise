@@ -7,11 +7,11 @@
         <div class="spiti_logo">
             <img src="https://spiti-trip.com/images/spiti-trip-logo.webp" alt="" width="200px">
         </div>
-        <div class="d-flex flex-row align-items-center gap-1">
-            <div class="phone_logo">
-                <img src="https://spiti-trip.com/images/icon/icon-calling.webp" alt="" width="40px">
+        <div class="d-flex flex-row align-items-center justify-content-center gap-1">
+            <div class="phone_logo m-auto" >
+                <img src="https://spiti-trip.com/images/icon/icon-calling.webp" alt="" width="40px" style="margin: auto;">
             </div>
-            <div class="text-danger font-size" >
+            <div class="text-danger font-size m-auto text-center">
                 +91-8894949439
             </div>
         </div>

@@ -159,7 +159,14 @@ $packages = [
             padding: 15px 0;
         }
 
-       
+        .award_head{
+            font-size: 44px; 
+            font-family: Cormorant Garamond,serif; 
+            position: relative; 
+            color: #fff; 
+            margin-top: 50px;
+        }
+
 
         #carousel-width {
             width: 75%;
@@ -189,10 +196,12 @@ $packages = [
             25% {
                 background-color: orange;
             }
-            50%{
-                background-color: yellow;
+
+            50% {
+                background-color: blueviolet;
             }
-            100%{
+
+            100% {
                 background-color: brown;
             }
 
@@ -253,6 +262,7 @@ $packages = [
         .itinary ul li div img {
             width: 50px;
         }
+
 
         .single .package_img {
             margin-top: 20px;
@@ -334,6 +344,12 @@ $packages = [
             padding-left: 50px;
         }
 
+        #copyright {
+            background: #353535;
+            padding: 12px 0;
+            text-transform: uppercase;
+        }
+
         @media screen and (max-width:1000px) {
             .part-1 {
                 display: none;
@@ -356,7 +372,6 @@ $packages = [
             #gap>div {
                 width: fit-content;
             }
-
 
         }
 
@@ -389,6 +404,10 @@ $packages = [
                 grid-template-columns: repeat(3, 1fr);
             }
 
+            .margin {
+                margin-bottom: 100px;
+            }
+
         }
 
         @media screen and (min-width:500px) and (max-width:800px) {
@@ -415,6 +434,7 @@ $packages = [
             .spiti_logo>img {
                 width: 150px;
             }
+          
 
             .phone_logo>img {
                 width: 20px;
@@ -465,6 +485,13 @@ $packages = [
             #carousel-width {
                 width: 90%;
             }
+            .font{
+                font-size: 10px;
+            }
+            .award_head{
+                font-size: 30px;
+            }
+
         }
 
         @media screen and (max-width:400px) {
@@ -481,6 +508,13 @@ $packages = [
             #grid-3 {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
+            }
+            .phone_logo>img {
+                width: 15px;
+            }
+            .font-size{
+                font-size: 10px;
+                font-weight: 100;
             }
         }
     </style>
@@ -687,9 +721,9 @@ $packages = [
             <?php
             foreach ($packages as $package) {
             ?>
-                <div class="col-md-4">
+                <div class="col-md-4 margin">
 
-                    <div class="single" style="cursor: pointer;">
+                    <div class="single pb-3" style="cursor: pointer;">
                         <div class="package_img" style="overflow: hidden;">
                             <img src="<?php echo $package["imgUrl"]  ?>" alt="" width=" 100%" class="hoverImg">
                         </div>
@@ -808,15 +842,15 @@ $packages = [
         <div id="carouselExample" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="https://spiti-trip.com/images/packages/top-destinations/sanglavalley.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 1">
+                    <div class="row" >
+                        <div class="col-md-4" style="overflow: hidden;">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/sanglavalley.webp" class="d-block w-100 hoverImg" style="border-radius: 20px;" alt="Image 1">
                         </div>
                         <div class="col-md-4">
-                            <img src="https://spiti-trip.com/images/packages/top-destinations/pinvalley.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 2">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/pinvalley.webp" class="d-block w-100 hoverImg" style="border-radius: 20px;" alt="Image 2">
                         </div>
                         <div class="col-md-4">
-                            <img src="https://spiti-trip.com/images/packages/top-destinations/nako.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 3">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/nako.webp" class="d-block w-100 hoverImg" style="border-radius: 20px;" alt="Image 3">
                         </div>
 
                     </div>
@@ -824,13 +858,13 @@ $packages = [
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="https://spiti-trip.com/images/packages/top-destinations/kibber.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 4">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/kibber.webp" class="d-block w-100 hoverImg" style="border-radius: 20px;" alt="Image 4">
                         </div>
                         <div class="col-md-4">
-                            <img src="https://spiti-trip.com/images/packages/top-destinations/keymonastery.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 5">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/keymonastery.webp" class="d-block w-100 hoverImg" style="border-radius: 20px;" alt="Image 5">
                         </div>
                         <div class="col-md-4">
-                            <img src="https://spiti-trip.com/images/packages/top-destinations/kaza.webp" class="d-block w-100" style="border-radius: 20px;" alt="Image 6">
+                            <img src="https://spiti-trip.com/images/packages/top-destinations/kaza.webp" class="d-block w-100 hoverImg" style="border-radius: 20px;" alt="Image 6">
                         </div>
                     </div>
                 </div>
@@ -854,7 +888,7 @@ $packages = [
     <div style="background-color: #2e3042; padding:30px 10px;">
         <div class="row ">
             <div class="col-md-6" style="vertical-align: middle;margin: auto;max-width: 400px;text-align: center;">
-                <h1 style="font-size: 44px;  font-family: Cormorant Garamond,serif; position: relative; color: #fff; margin-top: 50px;">
+                <h1 class="award_head">
                     National Tourism Award Winner</h1>
                 <p style="margin-top: 0;margin-bottom: 1rem; color: #fff;">Ministry of Tourism, Govt Of India awarded us
                     the National Tourism Award in the year 2016-17 and 2018-19 for Best Domestic Tour (Tours within
@@ -864,26 +898,26 @@ $packages = [
 
 
 
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="https://spiti-trip.com/images/award/national-tourism-award-16-17.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="https://spiti-trip.com/images/award/national-tourism-award.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://spiti-trip.com/images/award/national-tourism-award-16-17.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://spiti-trip.com/images/award/national-tourism-award-18-19.jpg" class="d-block w-100" alt="...">
+                            <img class="d-block w-100" src="https://spiti-trip.com/images/award/national-tourism-award.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://spiti-trip.com/images/award/national-tourism-award-18-19.jpg" alt="Third slide">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
 
             </div>
@@ -1127,10 +1161,10 @@ $packages = [
     <!-- Modal -->
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"> -->
     </script>
 
 </body>

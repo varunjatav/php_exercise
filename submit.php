@@ -3,8 +3,8 @@ if (!isset($_POST)) {
     exit;
 }
 $name = isset($_POST["name"]) ? $_POST["name"] : null;
-$email = $_POST["email"] ? $_POST["email"] : null;
-$mobile = $_POST["mobile"] ? $_POST["mobile"] : null;
+$email = isset($_POST["email"]) ? $_POST["email"] : null;
+$mobile = isset($_POST["mobile"]) ? $_POST["mobile"] : null;
 if (!$name) {
     echo "Name is required";
     return;
