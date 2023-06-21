@@ -1,10 +1,10 @@
 <section id="full_footer" class="pt-5">
 <footer>
         <div class="container">
-            <div class="flex part-1">
-                <div class="">
+            <div class="row part-1">
+                <div class="col-md-12">
                     <ul class="link">
-                        <li> CHAIL </li> |
+                        <li> CHAIL </li>       |
                         <li> GILBERT TRAIL, KASAULI </li> |
                         <li> KASAULI </li> |
                         <li> MONKEY POINT, KASAULI </li> |
@@ -57,7 +57,7 @@
              </div>
              <div class="row text-center">
                 <div class="col">
-                <p  class="font">Privacy Policy | T & C</p>
+                <p  class="font">Privacy Policy  |  T & C</p>
                 </div>   
              </div>
            </div>
