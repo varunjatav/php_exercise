@@ -1,6 +1,6 @@
 
 
-<nav style="background-color:#fff" class="navbar p-4">
+<nav style="background-color:#fff" class="navbar pr-4 pl-4">
         <div id="brand">
             <a href="" class="navbar-brand nav-link text-danger fw-bold">Spiti Tour Packages</a>
         </div>

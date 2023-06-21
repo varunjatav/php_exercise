@@ -1,10 +1,10 @@
 <?php
 $packages = [
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/SpitiTourfromManali.webp",
-        "packageName" => "Spiti Tour from Manali",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/KasauliTripwithShimlaManali.webp",
+        "packageName" => "Kasauli Trip with Shimla, Manali",
         "duration" => "5N/6D",
-        "price" => "₹16,950",
+        "price" => "₹15,550",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
             "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
@@ -13,10 +13,10 @@ $packages = [
         ]
     ],
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/SpitiValleywithKalpaandSangla.webp",
-        "packageName" => "Spiti Valley with Kalpa and Sangla",
-        "duration" => "7N/8D",
-        "price" => "₹25,950 ",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/ShortWeekendTourofKasauli.webp",
+        "packageName" => "Short Weekend Tour of Kasauli",
+        "duration" => "2N/3D",
+        "price" => "₹6,450",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
             "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
@@ -25,10 +25,22 @@ $packages = [
         ]
     ],
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/SpitiValleywithChandertalfromManali.webp",
-        "packageName" => "Spiti Valley with Chandertal from Manali",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/KasauliandShimlaTour.webp",
+        "packageName" => "Kasauli and Shimla Tour",
+        "duration" => "3N/4D",
+        "price" => "₹8,950",
+        "packageInclusion" => [
+            "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
+            "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
+            "img3" => "https://spiti-trip.com/images/icon/meals-icon.webp",
+            "img4" => "https://spiti-trip.com/images/icon/sightseeing-icon.webp",
+        ]
+    ],
+    [
+        "imgUrl" => "https://kasaulitrip.in/images/packages/ShimlaManaliwithKasauli-SummerSpecial.webp",
+        "packageName" => "Shimla Manali with Kasauli - Summer Special",
         "duration" => "6N/7D",
-        "price" => "₹21,450",
+        "price" => "₹19,950",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
             "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
@@ -37,21 +49,9 @@ $packages = [
         ]
     ],
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/SpitiValleyandKinnaur-SummerSpecial.webp    ",
-        "packageName" => "Spiti Valley and Kinnaur - Summer Special",
-        "duration" => "9N/10D",
-        "price" => "₹30,950",
-        "packageInclusion" => [
-            "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
-            "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
-            "img3" => "https://spiti-trip.com/images/icon/meals-icon.webp",
-            "img4" => "https://spiti-trip.com/images/icon/sightseeing-icon.webp",
-        ]
-    ],
-    [
-        "imgUrl" => "https://spiti-trip.com/images/packages/KinnaurTour-LongweekendSpecial.webp",
-        "packageName" => "Kinnaur Tour - Long weekend Special   ",
-        "duration" => "4N/5D",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/KasauliwithManaliTour.webp",
+        "packageName" => "Kasauli with Manali Tour",
+        "duration" => "5N/6D",
         "price" => "₹14,450",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
@@ -61,10 +61,10 @@ $packages = [
         ]
     ],
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/ManaliwithLahaulTour-FamilySpecial.webp",
-        "packageName" => "Manali with Lahaul Tour - Family Special",
-        "duration" => "4N/5D",
-        "price" => "₹15,950",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/KasauliwithChailandKufri.webp",
+        "packageName" => "Kasauli with Chail and Kufri",
+        "duration" => "3N/4D",
+        "price" => "₹7,950",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
             "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
@@ -73,10 +73,10 @@ $packages = [
         ]
     ],
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/SpitiValleywithKinnaurandLahual.webp",
-        "packageName" => "Spiti Valley with Kinnaur and Lahual",
-        "duration" => "11N/12D",
-        "price" => "₹36,450",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/KasauliwithKinnaurValley.webp",
+        "packageName" => "Kasauli with Kinnaur Valley",
+        "duration" => "5N/6D",
+        "price" => "₹16,650",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
             "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
@@ -85,10 +85,10 @@ $packages = [
         ]
     ],
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/AmazingSpitiwithKinnaurandManali.webp",
-        "packageName" => "Amazing Spiti with Kinnaur and Manali",
-        "duration" => "8N/9D",
-        "price" => "₹28,950",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/KasauliwithShimlaandNarkanda.webp",
+        "packageName" => "Kasauli with Shimla and Narkanda",
+        "duration" => "5N/6D",
+        "price" => "₹16,250",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
             "img2" => "https://spiti-trip.com/images/icon/hotels-icon.webp",
@@ -97,9 +97,9 @@ $packages = [
         ]
     ],
     [
-        "imgUrl" => "https://spiti-trip.com/images/packages/SpitiTour-HoneymoonSpecial.webp",
-        "packageName" => "Spiti Tour - Honeymoon Special",
-        "duration" => "6N/7D",
+        "imgUrl" => "https://kasaulitrip.in/images/packages/KasauliTourwithManaliandDharamshala.webp",
+        "packageName" => "Kasauli Tour with Manali and Dharamshala",
+        "duration" => "7N/8D",
         "price" => "₹23,450",
         "packageInclusion" => [
             "img1" => "https://spiti-trip.com/images/icon/transfers-icon.webp",
@@ -152,7 +152,7 @@ $packages = [
 
         #banner {
             position: relative;
-            background-image: linear-gradient(rgb(0 0 0 / 34%), rgb(0 0 0 / 230%)), url("https://spiti-trip.com/build/assets/spiti-banner.e4b0478c.webp");
+            background-image: url("https://kasaulitrip.in/build/assets/KasauliBanner.f500ea09.webp");
             background-size: cover;
             background-position: center bottom;
             background-repeat: no-repeat;
@@ -189,21 +189,14 @@ $packages = [
         }
 
         @keyframes backgroundColor {
-            0% {
-                background-color: red;
+            from {
+                background-color: green;
             }
 
-            25% {
-                background-color: orange;
+            to {
+                background-color: skyblue;
             }
 
-            50% {
-                background-color: blueviolet;
-            }
-
-            100% {
-                background-color: brown;
-            }
 
         }
 
@@ -287,7 +280,7 @@ $packages = [
         }
 
         #address_container {
-            padding: 10rem;
+            padding: 5rem;
         }
 
         #grid-temp {
@@ -525,7 +518,7 @@ $packages = [
 </head>
 
 <body>
-    <?php require_once "_includes/boot_nav.php"; ?>
+    <?php require_once "_includes/kasoli_nav.php"; ?>
 
     <div id="banner">
         <div class="container">
@@ -533,7 +526,7 @@ $packages = [
                 <div class="col-8" style="padding-top:120px" id="text-container">
                     <div class="text-white">
                         <h1 class="fw-light small " style="font-family: Cormorant Garamond,serif;color: #fff;text-transform: uppercase;font-size: 10px;letter-spacing: 4px;font-weight: 100;display: inline;">
-                            BEST SPITI TOUR OPERATOR FROM HIMACHAL PRADESH</h1>
+                            BEST KASAULI TOUR OPERATOR FROM HIMACHAL PRADESH</h1>
                         <h2 class="fw-bold mb-3" style="font-family: Cormorant Garamond,serif; font-size:36px">Value for
                             Money Tour Package with Best Service</h2>
                         <ul class="lh-lg p-0 m-0" style="list-style-type: none; font-family: Cormorant Garamond,serif;">
@@ -543,7 +536,7 @@ $packages = [
                                         ✔
                                     </code>
                                 </span>
-                                Spiti Destination Expert
+                                Kasaul Destination Expert
                             </li>
                             <li>
                                 <span>
@@ -857,7 +850,7 @@ $packages = [
                 <div>
                     <h1 class="text-style">
                         Why
-                        <span style="color: red;">Spiti Trip?</span>
+                        <span style="font-weight: 700;background: -webkit-linear-gradient(#1bbedd,#6bcd38);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Kasauli Trip?</span>
                     </h1>
 
                 </div>
@@ -924,11 +917,12 @@ $packages = [
 
     <div class="container">
         <div class="d-flex flex-column align-items-center pt-5">
-            <div>
+            <div  class="container m-auto text-center ">
                 <h1 class="text-style">
-                    Spiti Valley
-                    <span style="color: red;">Package Deals</span>
+                    Kasauli Trip
+                    <span style="font-weight: 700;background: -webkit-linear-gradient(#1bbedd,#6bcd38);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Package Deals</span>
                 </h1>
+                <p class="text-md" style="font-family: Cormorant Garamond,serif; color:grey">Best Selling Tour Packages for Kasauli Trip</p>   
 
             </div>
         </div>
@@ -944,11 +938,11 @@ $packages = [
                         </div>
                         <h2 class="package_name pt-2"><?php echo $package["packageName"] ?></h2>
                         <h3>
-                            <span class="text-danger fs-4 text fw-bold"><?php echo $package["duration"] ?></span>
+                            <span class="fs-4 text fw-bold" style="color: #036679!important;"><?php echo $package["duration"] ?></span>
                         </h3>
                         <h3 class="package_name pb-2">
                             From
-                            <span class="fs-1 text fw-bold" style="color: #f37400!important;"><?php echo $package["price"] ?></span>
+                            <span class="fs-1 text fw-semibold" style="color: #036679!important;"><?php echo $package["price"] ?></span>
                             Per Person
                         </h3>
                         <div class="itinary">
@@ -1006,7 +1000,7 @@ $packages = [
                             </div>
                             <div class="border-top w-100 d-flex justify-content-between align-items-center border-bottom pb-2">
                                 <div>
-                                    <button type="button" class="btn btn-dark mt-3 fw-bold fs-6 text" data-toggle="modal" data-target="#queryModal">
+                                    <button type="button" style="background: #036679; color:#fff" class="btn  mt-3 fw-bold fs-6 text" data-toggle="modal" data-target="#queryModal">
                                         ENQUIRY NOW
                                     </button>
 
@@ -1047,8 +1041,8 @@ $packages = [
 
     <div class="container m-auto text-center mt-5 pt-5 pb-5">
         <h1 style=" font-size: 44px; font-family: Cormorant Garamond,serif; position: relative; color: #2e3042; margin-top: 50px;">
-            Top Spiti <span class="text-danger"> Destinations</span> </h1>
-        <p class="text-md" style="font-family: Cormorant Garamond,serif; color:grey">Top Spiti Destinations Packages</p>
+            Top Kasauli <span style="font-weight: 700;background: -webkit-linear-gradient(#1bbedd,#6bcd38);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"> Destinations</span> </h1>
+        <p class="text-md" style="font-family: Cormorant Garamond,serif; color:grey">Top Kasuali Destinations Packages</p>
     </div>
 
 
@@ -1133,9 +1127,9 @@ $packages = [
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div> 
+                </div>
 
-               
+
 
             </div>
         </div>
@@ -1144,7 +1138,7 @@ $packages = [
 
     <div class="container m-auto text-center mt-5 pt-5 pb-5">
         <h1 style=" font-size: 44px; font-family: Cormorant Garamond,serif; position: relative; color: #2e3042; margin-top: 50px;">
-            Client<span class="text-danger"> Says</span> </h1>
+            Client<span style="font-weight: 700;background: -webkit-linear-gradient(#1bbedd,#6bcd38);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"> Says</span> </h1>
     </div>
 
     <div class=" m-auto p-5 bg-white text-center" id="carousel-width">
@@ -1184,7 +1178,7 @@ $packages = [
     <div class="container row mt-5 m-auto p-5 fit-content" style="background-color: #2e3042; border-radius:5px; ">
         <div class="row">
             <div class="confused_text  col-md-8 text-center" id="head">
-                <h1>Still Confused? to choose Spiti Tour Package
+                <h1>Still Confused? to choose Kasuali Tour Package
                     Click and Get customized tour package</h1>
             </div>
             <div class=" col-md-4    d-flex" style="color: #2e3042;">
@@ -1197,7 +1191,7 @@ $packages = [
     </div>
 
     <div class="container m-auto text-center mt-5 pt-5 pb-5">
-        <h1 style="font-size: 44px; font-family: Cormorant Garamond,serif; position: relative; color: #2e3042;">Why<span class="text-danger"> With Us</span> </h1>
+        <h1 style="font-size: 44px; font-family: Cormorant Garamond,serif; position: relative; color: #2e3042;">Why<span style="font-weight: 700;background: -webkit-linear-gradient(#1bbedd,#6bcd38);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"> With Us</span> </h1>
     </div>
     <div class="row w-75 m-auto gap-4">
         <div class="col d-flex flex-column align-items-center text-center p-3 bg-white hover" style="border-radius:20px; border:1px solid grey;">
@@ -1220,9 +1214,9 @@ $packages = [
                 whenever you like, before your trips.</p>
         </div>
     </div>
-    <div class="container m-auto text-center mt-5 pt-5 pb-5">
+    <div class="container m-auto text-center mt-5 pt-5 ">
         <h1 style="font-size: 44px; font-family: Cormorant Garamond,serif; position: relative; color: #2e3042;">
-            Contact<span class="text-danger"> Us</span> </h1>
+            Contact<span style="font-weight: 700;background: -webkit-linear-gradient(#1bbedd,#6bcd38);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"> Us</span> </h1>
     </div>
     <div id="address_container">
         <div class="row  m-auto " id="grid-temp">
@@ -1525,7 +1519,7 @@ $packages = [
         </div>
     </div>
 
-    <?php require_once "_includes/boot_foot.php";   ?>
+    <?php require_once "_includes/kasoli_foot.php";   ?>
 
 
     <!-- Modal -->
