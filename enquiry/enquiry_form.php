@@ -15,51 +15,93 @@
             background-color: #dfdbe5;
             padding: 40px;
         }
+
+        form>div {
+            margin-top: 2rem;
+        }
+
+        form>input {
+            color: #dfdbe5;
+            font-weight: bold;
+        }
+
+        .bg-blue {
+            background-color: blue !important;
+        }
+        .text-blue{
+            color: blue;
+        }
     </style>
 </head>
 
 <body>
     <div id="form_container">
         <div class="container w-50">
-            
-            <form action="" class="p-4  m-auto " method="post" style="border-bottom: 25px; background-color:#fff">
-            <div>
-               <p>PLAYGROUNDS</p>
-               <h3>Send Package Enquiry</h3>
-               <p>Please fill out the details and test the leads integration.</p>
-            </div>
-                
+
+            <form action="enquiry_submit.php" class="p-4  m-auto" method="post" style="border-bottom: 25px; background-color:#fff">
+                <div>
+                    <p class="text-blue fw-semibold">PLAYGROUNDS</p>
+                    <h3>Send Package Enquiry</h3>
+                    <p>Please fill out the details and test the leads integration.</p>
+                </div>
+
                 <div class="d-flex justify-content-between mb-2 gap-5">
                     <div class="w-50">
-                        <label for="name">Name*</label>
-                        <input type="text" class="form-control" placeholder="Name" name="name">
+                        <label for="Name" class="fw-bold">Name*</label>
+                        <input type="text" class="form-control" placeholder="e.g. Sudhir M" name="name">
                     </div>
-                    <div class="w-50 d-flex gap-5">
-                    <div class="w-50">
-                        <label for="email">No Of Adults</label>
-                        <input type="text" class="form-control" placeholder="eg: 4" name="email">
+                    <div class="w-50 d-flex gap-3">
+                        <div class="w-50">
+                            <label for="No Of Adults" class="fw-bold">No Of Adults</label>
+                            <input type="text" class="form-control" placeholder="eg: 4" name="no_of_adults">
+                        </div>
+                        <div class="w-50">
+                            <label for="No Of Childs" class="fw-bold">No Of Childs</label>
+                            <input type="text" class="form-control" placeholder="eg: 0" name="no_of_child">
+                        </div>
                     </div>
-                    <div class="w-50">
-                        <label for="email">No Of Childs</label>
-                        <input type="text" class="form-control" placeholder="eg: 0" name="email">
-                    </div>
-                    </div>
-                    
                 </div>
                 <div class="d-flex justify-content-between mb-2 gap-5">
                     <div class="w-50">
-                        <label for="name">Phone Number*</label>
-                        <input type="text" class="form-control" placeholder="Name" name="name">
+                        <label for="Phone Number" class="fw-bold">Phone Number*</label>
+                        <input type="text" class="form-control" placeholder="e.g. 8888888888" name="phone_number">
                     </div>
                     <div class="w-50">
-                        <label for="email">Email</label>
-                        <input type="text" class="form-control" placeholder="No of Adults" name="email">
+                        <label for="Email" class="fw-bold">Email</label>
+                        <input type="text" class="form-control" placeholder="e.g. name@example.com" name="email">
                     </div>
-                   
+
                 </div>
-                <div class="mb-2">
-                    <input type="number" class="form-control" placeholder="Mobile No." name="mobile">
+                <div class="d-flex justify-content-between mb-2 gap-5">
+                    <div class="w-50">
+                        <label for="Name" class="fw-bold">Destination*</label>
+                        <input type="text" class="form-control" placeholder="Destination" name="destination">
+                    </div>
+                    <div class="w-50 d-flex gap-3">
+                        <div class="w-50">
+                            <label for="date" class="fw-bold">Start date</label>
+                            <input type="date" class="form-control"  name="date">
+                        </div>
+                        <div class="w-50">
+                            <label for="days" class="fw-bold">No Of Days</label>
+                            <input type="text" class="form-control" placeholder="eg. 4" name="days">
+                        </div>
+                    </div>
                 </div>
+                <div class="col w-full">
+                    <div class="row">
+                        <label for="" class="fw-bold "> Requirements / Comments </label>
+                    </div>
+                    <div class="row">
+                        <textarea name="comments" class="form-control block w-full" id="" placeholder=" e.g.5 Days / 4 Star Hotel / 2,500 Budget"></textarea>
+                    </div>
+                </div>
+                <div class="w-100">
+                    <button class=" w-100 py-3 fs-5 text fw-semibold border border-0 rounded-3 bg-blue text-white">
+                        Submit Query
+                    </button>
+                </div>
+
             </form>
 
         </div>
