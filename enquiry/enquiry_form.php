@@ -11,8 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
+          body {
+            background-image: url('https://images.pexels.com/photos/7794441/pexels-photo-7794441.jpeg?auto=compress&cs=tinysrgb&w=400');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* padding: 50px; */
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: larger;
+        }
+        a:hover{
+            color: white;
+        }
         #form_container {
-            background-color: #dfdbe5;
+            /* background-color: #dfdbe5; */
             padding: 40px;
         }
 
@@ -38,7 +53,7 @@
     <div id="form_container">
         <div class="container w-50">
 
-            <form action="enquiry_submit.php" class="p-4  m-auto" method="post" style="border-bottom: 25px; background-color:#fff">
+            <form action="enquiry_submit.php" class="p-4  m-auto shadow-lg" method="post" style="border-bottom: 25px; background-color:#fff">
                 <div>
                     <p class="text-blue fw-semibold">PLAYGROUNDS</p>
                     <h3>Send Package Enquiry</h3>
@@ -124,5 +139,32 @@
     <!-- </script> -->
 
 </body>
+<footer class="bg-dark text-white pt-5 pb-5 w-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 d-flex flex-column gap-4">
+                <h6>Support</h6>
+                <a href="https://test.sembark.com/travel-software/downloads/">Downloads</a>
+                <a href="https://test.sembark.com/travel-software/tutorials/">Tutorials</a>
+                <a href="https://test.sembark.com/travel-software/docs/">Documentation</a>
+                <a href="https://test.sembark.com/travel-software/apis/"> APIs</a>
+                <a href="https://test.sembark.com/travel-software/integrations/"> Integrations</a>
+                <a href="https://test.sembark.com/travel-software/release-notes/">Release Notes</a>
+                <a href="https://test.sembark.com/travel-software/faqs/">FAQs</a>
+            </div>
+            <div class="col-md-4 d-flex flex-column gap-4">
+                <h6>Company</h6>
+                <a href="https://test.sembark.com/blogs/">Blogs</a>
+                <a href="https://test.sembark.com/legal/privacy/">Terms & Privacy</a>
+                <a href="https://test.sembark.com/about-us/">About Us</a>
+            </div>
+            <div class="col-md-4 d-flex flex-column gap-4">
+                <h6>Contact Us</h6>
+                <a href="https://test.sembark.com/contact-us/">Contact Us</a>
+                <a href="https://sembark.statuspage.io/">Status</a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>

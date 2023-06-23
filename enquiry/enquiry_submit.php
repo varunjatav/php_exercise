@@ -1,14 +1,22 @@
 <?php 
+
+
+$name = $_POST['name'];
+$phone_number = $_POST['phone_number'];
+$email = $_POST['email'];
+$destination = $_POST['destination'];
+$days = $_POST['days'];
+$date = $_POST['date'];
+$comments = $_POST['comments'];
 // create a payload for the request
 $payload = http_build_query([
-  'name' => 'e.g. Sembark Client', // Guest/Agent Name [required
-  'phone_number' => 'e.g. 9009009999', // Contact No. [required]
-  'email' => 'e.g. client@example.com', // Contact Email
-  'destination' => 'e.g. Sikkim', // Destination details
-  'days' => 'e.g. 4', // Any Reference ID
-  'date' => 'e.g. dd-mm-yy',
-  // Any other custom details can be added into the comments section
-  'comments' => 'e.g. 3 Adults, 4 Star Hotels, AC Vehicles'
+  'name' => $name,
+  'phone_number' => $phone_number,
+  'email' => $email,
+  'destination' => $destination,
+  'days' => $days,
+  'date' => $date,
+  'comments' => $comments
 ]);
 
 // set data to APIs and handle the response
@@ -38,6 +46,7 @@ if (isset($error_message)) {
 }
 echo $response;
 
-header('Location: success.php');
+$redirect_url = "success.php?" . $payload;
+header("Location: $redirect_url");
 exit();
 ?>
